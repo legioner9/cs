@@ -9,11 +9,6 @@ git config --global user.name "legioner9"
 git remote add gh git@github.com:legioner9/cs.git
 git remote add gf git@gitflic.ru:legioner9/cs.git
 
-SHA256:aQcjTQkp7oIUTWSdWPQ56q/Ldfl8vnQy+kPkX+Kt9LU
-
-pash to ssh %USERPROFILE%.ssh
-
-C:\Users\ProNout
 
 powershall git_bash
 winget install --id Git.Git -e --source winget
@@ -21,6 +16,10 @@ winget install --id Git.Git -e --source winget
 
 "terminal.integrated.defaultProfile.windows": "Git Bash"
 
+
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_rsa
+
+install choco PwSh
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
