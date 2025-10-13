@@ -36,6 +36,7 @@ repo_name_arr=(plt
     sta
     stb
     stl
+    cs
 )
 
 cd "$HOME"/REPOBARE/_repo || {

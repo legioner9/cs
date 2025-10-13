@@ -8,6 +8,8 @@ read RESET_PLT_FONSH_TO_DEFAULT_
 
 if [[ "${RESET_PLT_FONSH_TO_DEFAULT_}" == "y" ]]; then
 
+
+
     rm -fvi "$HOME"/.fonsh_path
     rm -fvi "$HOME"/.plt_path
     rm -fvi "$HOME"/.pd_read
