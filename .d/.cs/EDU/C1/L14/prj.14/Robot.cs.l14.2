@@ -1,0 +1,28 @@
+using System;
+
+namespace prj
+{
+    class Robot
+    {
+        private string name;
+        private int weight;
+        private byte[] coordinates;
+
+        public void setPrm(string _name, int _weight, byte[] _coordinates)
+        {
+            name = _name;
+            weight = _weight;
+            coordinates = _coordinates;
+        }
+
+        public void prnPrm()
+        {
+            Console.WriteLine("name : \"{0}\"", name);
+            Console.WriteLine("weight : {0}", weight);
+            foreach (byte el in coordinates)
+            {
+                Console.WriteLine(el);
+            }
+        }
+    }
+}

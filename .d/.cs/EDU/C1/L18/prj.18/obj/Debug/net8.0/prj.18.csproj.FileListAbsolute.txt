@@ -1,0 +1,14 @@
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.GeneratedMSBuildEditorConfig.editorconfig
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.AssemblyInfoInputs.cache
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.AssemblyInfo.cs
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.csproj.CoreCompileInputs.cache
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\bin\Debug\net8.0\prj.18.exe
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\bin\Debug\net8.0\prj.18.deps.json
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\bin\Debug\net8.0\prj.18.runtimeconfig.json
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\bin\Debug\net8.0\prj.18.dll
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\bin\Debug\net8.0\prj.18.pdb
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.dll
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\refint\prj.18.dll
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.pdb
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\prj.18.genruntimeconfig.cache
+C:\YandexDisk\CS\EDU\C1\L18\prj.18\obj\Debug\net8.0\ref\prj.18.dll

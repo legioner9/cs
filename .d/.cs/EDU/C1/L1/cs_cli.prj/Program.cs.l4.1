@@ -1,0 +1,27 @@
+﻿using System;
+using System.Dynamic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("enter \"inp_fl\"");
+            float inp_fl = float.Parse(Console.ReadLine());
+            Console.WriteLine("\"inp_fl\" = " + inp_fl);
+            float v_fl = inp_fl + 2;
+            Console.WriteLine("inp_fl + 2 = " + v_fl);
+            v_fl = inp_fl - 2;
+            Console.WriteLine("inp_fl - 2 = " + v_fl);
+            v_fl = inp_fl * 2;
+            Console.WriteLine("inp_fl * 2 = " + v_fl);
+            v_fl = inp_fl / 2;
+            Console.WriteLine("inp_fl / 2 = " + v_fl);
+            v_fl = inp_fl % 2;
+            Console.WriteLine("inp_fl % 2 = " + v_fl);            
+        }
+    }
+}

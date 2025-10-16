@@ -1,0 +1,35 @@
+﻿using System;
+using System.Dynamic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+using System.Globalization;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            for (float i = 400; i > 5; i /= 4)
+            {
+                Console.WriteLine("i = {0}", i);
+            }
+
+            Console.WriteLine("Enter \"end\" for exit loop");
+            bool isHasCar = true;
+            string end;
+            while (isHasCar)
+            {
+                end = Console.ReadLine();
+                if ("end" == end) isHasCar = false;
+            }
+
+            byte k = 0;
+            do
+            {
+                Console.WriteLine("k = {0}", k);
+                k++;
+            } while (3 > k);
+        }
+    }
+}

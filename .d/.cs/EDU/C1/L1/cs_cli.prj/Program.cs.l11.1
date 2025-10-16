@@ -1,0 +1,36 @@
+﻿using System;
+using System.Dynamic;
+using System.Collections.Generic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Data;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            string chr_arr = "Hello";
+            Console.WriteLine(chr_arr[1]);
+            Console.WriteLine(chr_arr.Length);
+            Console.WriteLine(String.Concat(chr_arr, ")"));
+            // string[] nms = "ar,er,ue".Split(new char[]{','});
+            string[] nms = "ar,er,ue".Split([',']);
+            foreach (string el in nms)
+            {
+                Console.WriteLine(el);
+            }
+
+            Console.WriteLine(String.Join(" ", nms));
+            Console.WriteLine(" that 1 ".Trim());
+            // Console.WriteLine(chr_arr.Substring(0,chr_arr.Length -2));
+            Console.WriteLine(chr_arr[0..^2]); // Hel
+
+        }
+
+    }
+}
+
+

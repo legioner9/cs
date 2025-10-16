@@ -1,0 +1,32 @@
+﻿using System;
+using System.Dynamic;
+using System.Collections.Generic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Data;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            List<int> nums = [1, 2, 3];
+            List<int> nums_2 = new List<int>();
+            List<int> nums_3 = new() { 13, 53 };
+            nums_3.Add(11);
+            nums_3.Add(31);
+            nums_3.Add(21);
+
+            nums_3.Remove(31);
+            nums_3.Sort();
+            nums_3.Reverse();
+
+            foreach (int el in nums_3)
+            {
+                System.Console.WriteLine(el);
+            }
+        }
+    }
+}

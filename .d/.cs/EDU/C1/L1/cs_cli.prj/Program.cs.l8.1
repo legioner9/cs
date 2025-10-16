@@ -1,0 +1,38 @@
+﻿using System;
+using System.Dynamic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Data;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            short[] nums = new short[5];
+            Console.WriteLine(nums.Length);
+            for (byte i = 0; i < nums.Length; i++)
+            {
+                Console.WriteLine(nums[i]);
+            }
+
+            Random rand = new();
+            for (byte i = 0; i < nums.Length; i++)
+            {
+                nums[i] = Convert.ToInt16(rand.Next(-341, 341));
+            }
+
+            short summ = 0;
+
+            for (byte i = 0; i < nums.Length; i++)
+            {
+                Console.WriteLine(nums[i]);
+                summ += nums[i];
+
+            }
+            Console.WriteLine("summ = " + summ);
+        }
+    }
+}

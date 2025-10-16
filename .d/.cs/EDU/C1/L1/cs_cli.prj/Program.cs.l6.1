@@ -1,0 +1,25 @@
+﻿using System;
+using System.Dynamic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("Enter you age");
+            short inp_sho = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("You older {0}", inp_sho);
+
+            switch (inp_sho)
+            {
+                case 4: Console.WriteLine("inp_sho = {0}", inp_sho); break;
+                default: Console.WriteLine("age is ..."); break;
+            }
+        }
+        
+
+    }
+}

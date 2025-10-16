@@ -1,0 +1,24 @@
+﻿
+using System;
+
+
+namespace prj
+{
+    class Program
+    {
+        static void Main()
+        {
+            // constr v1
+            Robot rbt = new("1", 2, [3, 4, 5]);
+            rbt.prnPrm();
+
+            // constr v2
+            Robot rbt2 = new();
+            rbt2.setPrm("11", 21, [31, 41, 51]);
+            rbt2.prnPrm();
+
+            Console.WriteLine("count : {0}", Robot.RrnCount());
+
+        }
+    }
+}

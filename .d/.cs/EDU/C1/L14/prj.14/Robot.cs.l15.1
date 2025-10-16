@@ -1,0 +1,53 @@
+using System;
+using System.Diagnostics.Metrics;
+
+namespace prj
+{
+    class Robot
+    {
+        private static int count;
+        private static string strLesson = "Robot obj has been created in les.15";
+
+        public Robot(string name, int weight, byte[] coordinates)
+        {
+
+            System.Console.WriteLine(strLesson);
+            this.setPrm(name, weight, coordinates);
+            count++;
+
+        }
+        public Robot()
+        {
+            System.Console.WriteLine(strLesson);
+            count++;
+        }
+
+
+        private string name;
+        private int weight;
+        private byte[] coordinates;
+
+        public void setPrm(string name, int weight, byte[] coordinates)
+        {
+            this.name = name;
+            this.weight = weight;
+            this.coordinates = coordinates;
+        }
+
+        public void prnPrm()
+        {
+            string name = "name : \"{0}\"";
+            Console.WriteLine(name, this.name);
+            Console.WriteLine("weight : {0}", this.weight);
+            foreach (byte el in coordinates)
+            {
+                Console.WriteLine(el);
+            }
+        }
+
+        public static int RrnCount()
+        {
+            return count;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+﻿using System;
+using System.Dynamic;
+using System.Xml;
+using Microsoft.VisualBasic;
+using System.Text.RegularExpressions;
+using System.Globalization;
+using System.Data;
+namespace cs_cli
+{
+    class Program
+    {
+        static void Main()
+        {
+            short[,] nums = new short[2, 3];
+            byte[,] bts = {
+                {1,2},
+                {3,4}
+            };
+
+            for (byte i = 0; i < 2; i++)
+            {
+                for (byte j = 0; j < 2; j++)
+                {
+                    Console.WriteLine(" bts[{0},{1}] = {2}", i, j, bts[i, j]);
+                }
+            }
+        }
+    }
+}
