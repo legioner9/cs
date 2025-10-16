@@ -12,6 +12,7 @@ git remote add gf git@gitflic.ru:legioner9/cs.git
 
 powershall git_bash
 winget install --id Git.Git -e --source winget
+winget install obsidian
 
 
 "terminal.integrated.defaultProfile.windows": "Git Bash"
