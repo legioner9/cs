@@ -1,0 +1,42 @@
+using System;
+
+namespace prj
+{
+    class Killer : Robot
+    {
+        public Killer(string name, int weight, byte[] coordinates, int helth) : base(name, weight, coordinates)
+        {
+
+            this.helth = helth;
+
+            this.prnPrm();
+
+        }
+
+        public Killer() { }
+
+        public int Helth
+        {
+            get
+            {
+                return this.helth;
+            }
+            set
+            {
+
+            }
+        }
+
+        public override void prnPrm()
+        {
+            string name = "name : \"{0}\"";
+            Console.WriteLine(name, this.name);
+            Console.WriteLine("weight : {0}", this.weight);
+            foreach (byte el in coordinates)
+            {
+                Console.WriteLine(el);
+            }
+            Console.WriteLine("Helth : {0}", this.health);
+        }
+    }
+}

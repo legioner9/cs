@@ -8,8 +8,8 @@ namespace prj
     {
         static void Main(string[] args)
         {
-            Killer klr = new("13", 23, [33, 43, 53], 34);
-            Robot rbt = new("33", 90, [3, 5, 7]);
+            // Killer klr = new("13", 23, [33, 43, 53], 34);
+            Bot bot = new("33", 90, [3, 5, 7]);
         }
     }
 }

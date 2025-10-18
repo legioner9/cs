@@ -7,7 +7,7 @@ namespace prj
     abstract class Robot
     {
         private static int count;
-        private static string strLesson = "Robot obj has been created in les.20";
+        private static string strLesson = "Robot obj has been created in les.21";
 
         public Robot(string name, int weight, byte[] coordinates)
         {
@@ -37,20 +37,20 @@ namespace prj
             }
             private set { }
         }
-       
 
-        
+
+
         private byte[] coordinates;
 
-        public byte[] Coordinates{
-            {
+        public byte[] Coordinates
+        {
             get
             {
                 return this.coordinates;
             }
             private set { }
         }
-}
+
 
         private int weight;
         public int Weight
@@ -71,23 +71,8 @@ namespace prj
                 {
                     System.Console.WriteLine("set weight = {0}", value);
                     this.weight = value;
-
-
                 }
 
-            }
-        }
-
-        public int Width
-        {
-            private get
-            {
-                return 0;
-            }
-            set
-            {
-                System.Console.WriteLine("set width = {0}", value);
-                this.width = value;
             }
         }
 
@@ -98,24 +83,12 @@ namespace prj
             this.coordinates = coordinates;
         }
 
-// write in chaild classes
-        // public virtual void prnPrm()
-        // {
-        //     string name = "name : \"{0}\"";
-        //     Console.WriteLine(name, this.name);
-        //     Console.WriteLine("weight : {0}", this.weight);
-        //     foreach (byte el in coordinates)
-        //     {
-        //         Console.WriteLine(el);
-        //     }
-        // }
+        // abstract math:
+        public abstract void prnPrm();
 
-        public static int RrnCount()
+        public static int prnCount()
         {
             return count;
         }
-
     }
-
-
 }
