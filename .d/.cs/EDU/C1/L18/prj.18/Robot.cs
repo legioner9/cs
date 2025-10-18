@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace prj
 {
-    class Robot
+    abstract class Robot
     {
         private static int count;
         private static string strLesson = "Robot obj has been created in les.20";
@@ -37,12 +37,22 @@ namespace prj
             }
             private set { }
         }
-        private int weight;
+       
+
+        
         private byte[] coordinates;
 
-        public int width;
+        public byte[] Coordinates{
+            {
+            get
+            {
+                return this.coordinates;
+            }
+            private set { }
+        }
+}
 
-
+        private int weight;
         public int Weight
         {
             get
@@ -88,16 +98,17 @@ namespace prj
             this.coordinates = coordinates;
         }
 
-        public virtual void prnPrm()
-        {
-            string name = "name : \"{0}\"";
-            Console.WriteLine(name, this.name);
-            Console.WriteLine("weight : {0}", this.weight);
-            foreach (byte el in coordinates)
-            {
-                Console.WriteLine(el);
-            }
-        }
+// write in chaild classes
+        // public virtual void prnPrm()
+        // {
+        //     string name = "name : \"{0}\"";
+        //     Console.WriteLine(name, this.name);
+        //     Console.WriteLine("weight : {0}", this.weight);
+        //     foreach (byte el in coordinates)
+        //     {
+        //         Console.WriteLine(el);
+        //     }
+        // }
 
         public static int RrnCount()
         {
