@@ -10,3 +10,7 @@ powerShell adm
 
 download  https://github.com/marchaesen/vcxsrv and install
 path : \\wsl$
+
+reinstall with files
+    $ dotnet new console --force
+Rewrite Program.cs

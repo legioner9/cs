@@ -1,22 +1,14 @@
-﻿using System;
-using System.Dynamic;
-using System.Collections.Generic;
-using System.Xml;
-using Microsoft.VisualBasic;
-using System.Text.RegularExpressions;
-using System.Globalization;
-using System.Data;
-using System.IO;
-namespace cs_cli
+﻿// See https://aka.ms/new-console-template for more information
+using System;
+
+
+namespace prj
 {
-    class Program
+    class Program()
     {
-        static void Main()
+        static void Main(string[] args)
         {
-
+            Console.WriteLine("hhh");
         }
-
     }
 }
-
-
