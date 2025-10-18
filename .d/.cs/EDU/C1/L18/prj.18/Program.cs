@@ -19,25 +19,23 @@ new("16", 26, [36, 46, 56]),
 new("17", 27, [37, 47, 57])
             ];
 
-            // foreach (Robot el in rbts)
-            // {
-            //     el.prnPrm();
-            // }
-
-            // var listEnumerator = rbts.GetEnumerator();
-
-            // for (var i = 0; listEnumerator.MoveNext(); i++)
-            // {
-            //     Robot currRbt = listEnumerator.Current;
-            //     Console.WriteLine("index i = {0}", i);
-            //     currRbt.prnPrm();
-            // }
-
             foreach (Robot el in rbts)
             {
                 Console.WriteLine("index i = {0}", rbts.IndexOf(el));
                 el.prnPrm();
             }
+
+            List<Robot> rbts2 = new List<Robot> { };
+            rbts2.Add(new("Al", 25, [1, 2, 3]));
+            rbts2.Add(new("Bg", 30, [4, 5, 6]));
+
+            foreach (Robot item in rbts2)
+            {
+                Console.WriteLine("index i = {0}", rbts.IndexOf(el));
+                el.prnPrm();
+            }
+
+
         }
     }
 }
