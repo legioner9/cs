@@ -8,19 +8,11 @@ namespace prj
         {
             System.Console.WriteLine("base.width = {0}" , base.width); // TODO base.width 0 !!!!
             this.Health = helth;
-            // base.prnPrm();
-            this.prnPrm();
-
+            base.prnPrm();
         }
 
         public Killer() { }
 
         public int Health { get; set; }
-
-        public override void prnPrm()
-        {
-            base.prnPrm();
-            Console.WriteLine("Helth : {0}" , this.Health);
-        }
     }
 }

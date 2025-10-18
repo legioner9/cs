@@ -1,0 +1,39 @@
+﻿using System;
+using System.Transactions;
+using prj;
+
+namespace prj
+{
+    class Program()
+    {
+        static void Main(string[] args)
+        {
+            Killer klr = new("13", 23, [33, 43, 53], 34);
+
+            klr.Health = 100;
+            System.Console.WriteLine(klr.Health);
+
+            List<Killer> klrs = [
+            new("15", 25, [35, 45, 55] , 100),
+new("16", 26, [36, 46, 56], 90),
+new("17", 27, [37, 47, 57],93)
+            ];
+
+            Robot newRbt = null;
+
+            foreach (Killer el in klrs)
+            {
+                if (el.Name == "16")
+                {
+                    newRbt = el as Robot;
+                    Console.WriteLine("name == 16 , {0}", newRbt is Killer);
+                }
+                Console.WriteLine("index i = {0}", klrs.IndexOf(el));
+                Console.WriteLine(el is Killer);
+                // el.prnPrm();
+            }
+
+
+        }
+    }
+}

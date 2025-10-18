@@ -7,7 +7,7 @@ namespace prj
     class Robot
     {
         private static int count;
-        private static string strLesson = "Robot obj has been created in les.20";
+        private static string strLesson = "Robot obj has been created in les.19";
 
         public Robot(string name, int weight, byte[] coordinates)
         {
@@ -17,7 +17,6 @@ namespace prj
             this.weight = weight;
             this.coordinates = coordinates;
             count++;
-            this.prnPrm();
         }
         public Robot()
         {
@@ -88,7 +87,7 @@ namespace prj
             this.coordinates = coordinates;
         }
 
-        public virtual void prnPrm()
+        public void prnPrm()
         {
             string name = "name : \"{0}\"";
             Console.WriteLine(name, this.name);
