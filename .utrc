@@ -3,7 +3,7 @@
 repo= 
 read -rp "Dowload from gh or gf ?" repo
 case "$repo" in
-          "gh")
+        "gh")
         command ...
         ;;
         "gf")
