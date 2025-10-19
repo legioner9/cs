@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace prj
 {
-    abstract class Robot
+    abstract class Robot : IRun, IJump
     {
         private static int count;
         private static string strLesson = "Robot obj has been created in les.21";

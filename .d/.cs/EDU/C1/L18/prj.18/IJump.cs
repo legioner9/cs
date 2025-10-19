@@ -7,7 +7,7 @@ namespace prj
 {
     public interface IJump
     {
-        float IJumpValY { get; set; }
+        float IJumpPrpY { get; set; }
 
         void IJumpMthDo();
     }

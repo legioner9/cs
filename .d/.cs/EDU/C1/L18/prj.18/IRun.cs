@@ -7,8 +7,8 @@ namespace prj
 {
     public interface IRun
     {
-        float RunSpeed { get; set; }
+        float IRunPrpSpeed { get; set; }
 
-        void DoRun();
+        void IRunMthDo();
     }
 }
