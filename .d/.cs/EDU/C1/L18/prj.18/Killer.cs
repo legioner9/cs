@@ -1,23 +1,23 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace prj
 {
-    class Bot : Robot
+    class Killer : Robot
     {
-        public Bot(string name, int weight, byte[] coordinates) : base(name, weight, coordinates)
+        public Killer(string name, int weight, byte[] coordinates, int helth) : base(name, weight, coordinates)
         {
-            // System.Console.WriteLine("base.name = {0}" , base.Name); // TODO base.width 0 !!!!
+            // System.Console.WriteLine("base.name = {0}", base.Name); // TODO base.width 0 !!!!
+            this.Health = helth;
             // base.prnPrm();
             this.prnPrm();
 
         }
 
-        public Bot() { }
+        public Killer() { }
 
-        // write in chaild classes
+        public int Health { get; set; }
+
+
         public override void prnPrm()
         {
             string name = "name : \"{0}\"";
@@ -28,6 +28,7 @@ namespace prj
             {
                 Console.WriteLine(el);
             }
+            Console.WriteLine("Helth : {0}", this.Health);
         }
     }
 }

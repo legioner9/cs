@@ -17,7 +17,7 @@ namespace prj
             this.weight = weight;
             this.coordinates = coordinates;
             count++;
-            this.prnPrm();
+            // this.prnPrm();
         }
         public Robot()
         {
