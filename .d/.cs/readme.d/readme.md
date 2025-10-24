@@ -14,3 +14,6 @@ path : \\wsl$
 reinstall with files
     $ dotnet new console --force
 Rewrite Program.cs
+
+in Windows project:
+git config --local core.autocrlf false
