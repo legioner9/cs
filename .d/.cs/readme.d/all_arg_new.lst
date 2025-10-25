@@ -1,0 +1,71 @@
+Эти шаблоны соответствуют входным данным: .
+
+Имя шаблона                                                    Короткое имя                Язык        Теги                                 
+-------------------------------------------------------------  --------------------------  ----------  -------------------------------------
+ASP.NET Core with Angular                                      angular                     [C#]        Web/MVC/SPA                          
+ASP.NET Core with React.js                                     react                       [C#]        Web/MVC/SPA                          
+ASP.NET Core with React.js and Redux                           reactredux                  [C#]        Web/MVC/SPA                          
+Blazor Server App                                              blazorserver                [C#]        Web/Blazor                           
+MSTest Playwright Test Project                                 mstest-playwright           [C#]        Test/MSTest/Playwright               
+MSTest Test Project                                            mstest                      [C#],F#,VB  Test/MSTest                          
+MVC ViewImports                                                viewimports                 [C#]        Web/ASP.NET                          
+                                                                                           [C#]        Web/ASP.NET                          
+MVC ViewStart                                                  viewstart                   [C#]        Web/ASP.NET                          
+                                                                                           [C#]        Web/ASP.NET                          
+NUnit 3 Test Item                                              nunit-test                  [C#],F#,VB  Test/NUnit                           
+NUnit 3 Test Project                                           nunit                       [C#],F#,VB  Test/NUnit                           
+NUnit Playwright Test Project                                  nunit-playwright            [C#]        Test/NUnit/Playwright                
+Worker Service                                                 worker                      [C#]        Common/Worker/Web                    
+                                                                                           [C#],F#     Common/Worker/Web                    
+xUnit Test Project                                             xunit                       [C#],F#,VB  Test/xUnit                           
+Библиотека классов                                             classlib                    [C#],F#,VB  Common/Library                       
+                                                                                           [C#],F#,VB  Common/Library                       
+Библиотека классов Razor                                       razorclasslib               [C#]        Web/Razor/Library/Razor Class Library
+                                                                                           [C#]        Web/Razor/Library                    
+Библиотека классов Windows Forms                               winformslib                 [C#]        Common/WinForms                      
+                                                                                           [C#],VB     Common/WinForms                      
+Библиотека классов WPF                                         wpflib                      [C#]        Common/WPF                           
+                                                                                           [C#],VB     Common/WPF                           
+Библиотека настраиваемых элементов управления WPF              wpfcustomcontrollib         [C#]        Common/WPF                           
+                                                                                           [C#],VB     Common/WPF                           
+Библиотека пользовательских элементов управления WPF           wpfusercontrollib           [C#]        Common/WPF                           
+                                                                                           [C#],VB     Common/WPF                           
+Библиотека элементов управления Windows Forms                  winformscontrollib          [C#],VB     Common/WinForms                      
+Веб-API ASP.NET Core                                           webapi                      [C#],F#     Web/WebAPI                           
+                                                                                           [C#],F#     Web/Web API/API/Service              
+Веб-API ASP.NET Core (native AOT)                              webapiaot                   [C#]        Web/Web API/API/Service              
+Веб-конфигурация                                               webconfig                               Config                               
+Веб-приложение ASP.NET Core (модель-представление-контроллер)  mvc                         [C#],F#     Web/MVC                              
+                                                                                           [C#],F#     Web/MVC                              
+Веб-приложение ASP.NET Core                                    webapp,razor                [C#]        Web/MVC/Razor Pages                  
+                                                                                           [C#]        Web/MVC/Razor Pages                  
+Веб-приложение Blazor                                          blazor                      [C#]        Web/Blazor/WebAssembly               
+Компонент Razor                                                razorcomponent              [C#]        Web/ASP.NET                          
+                                                                                           [C#]        Web/ASP.NET                          
+Консольное приложение                                          console                     [C#],F#,VB  Common/Console                       
+                                                                                           [C#],F#,VB  Common/Console                       
+Контроллер API                                                 apicontroller               [C#]        Web/ASP.NET                          
+Контроллер MVC                                                 mvccontroller               [C#]        Web/ASP.NET                          
+Конфигурация NuGet                                             nugetconfig,nuget.config                Config                               
+Представление Razor                                            view                        [C#]        Web/ASP.NET                          
+Приложение WebAssembly Blazor                                  blazorwasm                  [C#]        Web/Blazor/WebAssembly/PWA           
+Приложение Windows Forms                                       winforms                    [C#]        Common/WinForms                      
+                                                                                           [C#],VB     Common/WinForms                      
+Приложение WPF                                                 wpf                         [C#]        Common/WPF                           
+                                                                                           [C#],VB     Common/WPF                           
+Пустой шаблон ASP.NET Core                                     web                         [C#],F#     Web/Empty                            
+                                                                                           [C#],F#     Web/Empty                            
+Служба gRPC ASP.NET Core                                       grpc                        [C#]        Web/gRPC                             
+                                                                                           [C#]        Web/gRPC/API/Service                 
+Страница Razor                                                 page                        [C#]        Web/ASP.NET                          
+                                                                                           [C#]        Web/ASP.NET                          
+Файл Directory.Build.props MSBuild                             buildprops                              MSBuild/props                        
+Файл Directory.Build.targets MSBuild                           buildtargets                            MSBuild/props                        
+Файл EditorConfig                                              editorconfig,.editorconfig              Config                               
+файл gitignore dotnet                                          gitignore,.gitignore                    Config                               
+Файл global.json                                               globaljson,global.json                  Config                               
+Файл буфера протокола                                          proto                                   Web/gRPC                             
+                                                                                                       Web/gRPC                             
+Файл манифеста локального инструмента dotnet                   tool-manifest                           Config                               
+Файл решения                                                   sln,solution                            Solution                             
+
