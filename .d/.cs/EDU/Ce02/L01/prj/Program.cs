@@ -3,6 +3,10 @@
 int a = 7; 
 int b = 2;
 
-bool c = (a+b)>10;
+bool c = (a+b)<10;
 
-cs
+Console.WriteLine(c); // True
+
+if (c) Console.WriteLine("That true))");
+if (true) Console.WriteLine("That true))");
+if (is) Console.WriteLine("That true))");
