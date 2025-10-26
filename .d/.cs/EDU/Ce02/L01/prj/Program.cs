@@ -1,7 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
 
-int a = 2100000000;
-int b = 2100000000;
-int c = a + b;
-Console.Write("");
+int a = 7; 
+int b = 2;
+
+bool c = (a+b)>10;
+
+cs

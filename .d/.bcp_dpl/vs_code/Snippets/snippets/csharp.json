@@ -19,4 +19,20 @@
 		],
 		"description": "Console.Write"
 	},
+		"Console.WriteLine": {
+		"prefix": "cs_cwl",
+		"body": [
+			"Console.WriteLine(\"$1\");",
+		],
+		"description": "Console.WriteLine"
+	},
+		"lines_comment": {
+		"prefix": "cs_lcomm",
+		"body": [
+			"/*",
+			"$1",
+			"*/",
+		],
+		"description": "Console.WriteLine"
+	},
 }
