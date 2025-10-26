@@ -13,7 +13,7 @@ echo -e "${GREEN} start 5_first_copy_dotfiles.sh ${NORMAL}" #print variable
 # fi
 #* gig ${HOME}/.stl/.path
 
-mkdir -p ${HOME}/.stl/.path
+mkdir -p  ${HOME}/.stl/.path
 
 arr_name_repo=($(cat ${PPWW_654fe0b9ed}/.sh/0_arr_path_to_libs.lst))
 
@@ -136,7 +136,7 @@ for item in ${arr_tar_file[@]}; do
     tar -xzvf "${path_tar_dir}"/${item}.tar.gz -C "$HOME"
 done
 
-touch ~/.bashrc
+touch  ~/.bashrc
 
 # touch ~/.starc
 # : >~/.stabit
