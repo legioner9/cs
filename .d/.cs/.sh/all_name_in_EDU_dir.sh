@@ -11,9 +11,19 @@ cd "C:\YandexDisk\_repo\cs\.d\.cs\EDU"
 lst_pth="C:\YandexDisk\_repo\cs\.d\.cs\.lst\all_name_in_EDU_dir.lst"
 
 : >${lst_pth}
+unset name
+unset item
 
 for item in $(l_02_dr2e @ | grep .name); do
-    l_01_prs_f -ne "${item}" >> ${lst_pth}
+    echo "${item}"
+    name=$(l_01_prs_f -ne "${item}")
+    excl="/c/YandexDisk/_repo/cs/.d/.cs/EDU/Ce02/"
+    # str=${item|"/c/YandexDisk/_repo/cs/.d/.cs/EDU/Ce02//"||}
+    if [ "NAME.name" != "${name}" ];then
+        echo "${name}" >> ${lst_pth}
+    fi
+    
+    # >> ${lst_pth}
 done
 
 cat ${lst_pth}
