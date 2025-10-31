@@ -32,7 +32,11 @@ for bash utils
 [cygwin.com](https://cygwin.com/install.html) pack 
 
 cli: ucrt.exe
+Также надо добавить в переменные среды путь "C:\msys64\ucrt64\bin"
+DO:: win+R, sysdm.cpl , дполнительно , переменные среды
+set PATH=%PATH%;C:\msys64\ucrt64\bin
 
-$ pacman -S mingw-w64-ucrt-x86_64-gtk4
-$ pacman -S mingw-w64-ucrt-x86_64-toolchain base-devel
-$ brew install gtk4
+
+    $ pacman -S mingw-w64-ucrt-x86_64-gtk4
+    $ pacman -S mingw-w64-ucrt-x86_64-toolchain base-devel
+    $ brew install gtk4
