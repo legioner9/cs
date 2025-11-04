@@ -1,7 +1,2 @@
-﻿class First
-{
-    static void Main()
-    {
-        System.Console.WriteLine("csadc");
-    }
-}
+﻿int? a = null;
+Console.Write(a);
