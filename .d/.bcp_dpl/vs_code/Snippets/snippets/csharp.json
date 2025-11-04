@@ -26,6 +26,13 @@
 		],
 		"description": "Console.WriteLine"
 	},
+		"Console.ReadLine": {
+		"prefix": "cs_rl",
+		"body": [
+			"Console.ReadLine();",
+		],
+		"description": "Console.ReadLine"
+	},
 		"lines_comment": {
 		"prefix": "cs_lcomm",
 		"body": [
