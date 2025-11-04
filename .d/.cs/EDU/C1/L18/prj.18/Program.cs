@@ -8,24 +8,21 @@ namespace prj
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter a");
-            var a = Convert.ToInt32(Console.ReadLine());
-                        
-            Console.WriteLine("enter b");
-            var b = Convert.ToInt32(Console.ReadLine());
-
-            Mul(a, b);
-
+            var rob = new Robot(TypeRobot.Enemy);
         }
 
-        public static void Mul(int a, int b)
-        {
-            Console.Write(a * b);
-        }
 
-        public static void Mul(double a, double b)
+    }
+
+    class Robot
+    {
+        public Robot(TypeRobot t)
         {
-            Console.Write(a * b);
+            Console.WriteLine($"t : {t}");
+            Console.WriteLine($"(int)t : {(int)t}");
         }
     }
+
+    enum TypeRobot { Enemy = 1, Hero = 2, Traitor = 3 };
+
 }
