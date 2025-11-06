@@ -8,21 +8,25 @@ namespace prj
     {
         static void Main(string[] args)
         {
-            var rob = new Robot(TypeRobot.Enemy);
-        }
+            var rob = new Robot();
+            rob.prnProp();
+            rob.name = "csa";
+            rob.prnProp();
 
+
+
+        }
 
     }
 
-    class Robot
+    struct Robot
     {
-        public Robot(TypeRobot t)
+        public string name;
+        public sbyte age;
+        public void prnProp()
         {
-            Console.WriteLine($"t : {t}");
-            Console.WriteLine($"(int)t : {(int)t}");
+            Console.WriteLine(name);
         }
     }
-
-    enum TypeRobot { Enemy = 1, Hero = 2, Traitor = 3 };
 
 }
