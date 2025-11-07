@@ -1,4 +1,7 @@
-﻿public partial class Employee
+Program.Main();
+
+
+public partial class Employee
 {
     public void DoWork()
     {
@@ -18,6 +21,7 @@ public partial class Employee
 //Main program demonstrating the Employee class usage
 public class Program
 {
+	
     public static void Main()
     {
         Employee emp = new Employee();
@@ -29,3 +33,4 @@ public class Program
 // Expected Output:
 // Employee is working.
 // Employee is at lunch.
+
