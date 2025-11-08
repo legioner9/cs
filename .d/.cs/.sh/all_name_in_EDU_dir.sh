@@ -2,7 +2,7 @@
 
 . "C:\YandexDisk\_repo\cs\.d\.sh\l.sh" &> ${HOME}/null
 
-cd "C:\YandexDisk\_repo\cs\.d\.cs\EDU"
+cd "C:\YandexDisk\_repo\cs\.d\.cs\EDU" || exit
 
 # l_02_dr2e @ | grep .name
 
