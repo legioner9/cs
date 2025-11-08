@@ -1,0 +1,28 @@
+﻿using System;
+using System.Transactions;
+using prj;
+
+namespace prj
+{
+    class Program()
+    {
+        static void Main(string[] args)
+        {
+            var rob = new Robot();
+            rob.prnProp();
+            rob.name = "csa";
+            rob.prnProp();
+        }
+    }
+
+    struct Robot
+    {
+        public string name;
+        public sbyte age;
+        public void prnProp()
+        {
+            Console.WriteLine(name);
+        }
+    }
+
+}
