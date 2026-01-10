@@ -8,3 +8,5 @@ cd "C:\YandexDisk\_repo\cs\.d\.cs\EDU_solid_api\YT_e_003\L001\prj" ||{
 if ! [ -f "C:\YandexDisk\_repo\cs\.d\.cs\EDU_solid_api\YT_e_003\L001\prj" ];then
     dotnet new console
 fi
+
+dotnet add package xarial.xcad.solidworks
