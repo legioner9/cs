@@ -1,1 +1,0 @@
-Example demonstrates how to handle native SOLIDWORKS events (configuration and sheet change) and display message box once event is fired.

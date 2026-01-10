@@ -1,1 +1,0 @@
-Example demonstrates how to create feature manager tabs attached to documents. Tab will dynamically display number of objects currently selected in the graphics view.
