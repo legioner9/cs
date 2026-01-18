@@ -22,6 +22,7 @@ namespace SWXSTANDALONE
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // sync meth
             swApp = SolidWorksSinglton.getApplication();
         }
     }
