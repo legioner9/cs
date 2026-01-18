@@ -13,7 +13,11 @@ cd "C:\YandexDisk\_repo\cs"
 
 git add .
 git commit -m "<>"
-git push gf master
-git push gh master
+git push gf master || {
+    read -rp "git push gf master ERROR"
+}
+git push gh master || {
+    read -rp "git push gh master ERROR"
+}
 
 cd ${DDir}
