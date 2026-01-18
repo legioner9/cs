@@ -10,6 +10,9 @@ if [ "y" == "$yes" ]; then
     rm -rf ".d\.bcp_dpl\vs_code\Snippets"
     mkdir ".d\.bcp_dpl\vs_code\Snippets"
     cp -r "C:\Users\ProNout\AppData\Roaming\Code\User\snippets" ".d\.bcp_dpl\vs_code\Snippets"
+
+    rm -f ".d\.bcp_dpl\vs_code\settings.json"
+    cp "C:\Users\ProNout\AppData\Roaming\Code\User\settings.json" ".d\.bcp_dpl\vs_code\settings.json"
 fi
 
 git add .
